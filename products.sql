@@ -1,10 +1,12 @@
 CREATE TABLE products 
 (
+    id INT NOT NULL AUTO_INCREMENT,
     name	varchar(300),
     supplier_id	varchar(300),
     category_id 	varchar(300),
     unit	varchar(300),
-    price	varchar(300)
+    price	varchar(300),
+    PRIMARY KEY (`id`)
 );
 
 INSERT INTO products (name, supplier_id, category_id , unit, price ) VALUES ('Chais', '1', '1', '10 boxes x 20 bags', '18');

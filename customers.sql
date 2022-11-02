@@ -1,11 +1,13 @@
 CREATE TABLE customers 
 (
+    id INT NOT NULL AUTO_INCREMENT,
     customer_name	varchar(300),
     contact_name	varchar(300),
     address	varchar(300),
     city	varchar(300),
     post_code	varchar(300),
-    country	varchar(300)
+    country	varchar(300),
+    PRIMARY KEY (`id`)
 );
 
 INSERT INTO customers (customer_name, contact_name, address, city, post_code, country) VALUES ('Alfreds Futterkiste', 'Maria Anders', 'Obere Str. 57', 'Berlin', '12209', 'Germany');
