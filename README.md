@@ -26,3 +26,10 @@
 5. Pobierz produkty których cena jest w przedziale 10 i 15, ale te produkty nie są w kategoriach 1,2,3,4
 6. Pobierz zamówienia złożone od 1996-07-01 do 1996-07-31
 7. Stwórz subquery pobierające klientów o id z przedziału 77, 90. Pobierz wszystkie zamówienia ograniczając je do subquery z pierwszej cześci zadania
+
+## JOIN, INNER JOIN, LEFT JOIN, RIGHT JOIN, Self Join
+1. Pobierz dane klientów i dane o ich zamówieniach
+2. Pobierz dane wszystkich klientów i wyświet liczbę zamówień które złożyli
+3. Pobierz dane tylko tych klientów którzy złożyli zamówienie
+4. Pobierz dane zamówień wszystkich pracowników (użyj RIGHT JOIN)
+5. Stwórz pary klientów którzy są z tego samego miasta
