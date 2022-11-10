@@ -2,10 +2,10 @@ CREATE TABLE products
 (
     id INT NOT NULL AUTO_INCREMENT,
     name	varchar(300),
-    supplier_id	varchar(300),
-    category_id 	varchar(300),
+    supplier_id	int,
+    category_id 	int,
     unit	varchar(300),
-    price	varchar(300),
+    price	float,
     PRIMARY KEY (`id`)
 );
 

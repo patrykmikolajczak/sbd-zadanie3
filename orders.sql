@@ -1,10 +1,10 @@
 CREATE TABLE orders 
 (
     id INT NOT NULL AUTO_INCREMENT,
-    customer_id	varchar(300),
-    employee_id	varchar(300),
-    order_date	varchar(300),
-    shipper_id	varchar(300),
+    customer_id	int,
+    employee_id	int,
+    order_date	date,
+    shipper_id	int,
     PRIMARY KEY (`id`)
 );
 

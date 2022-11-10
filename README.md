@@ -6,7 +6,7 @@
 5. Napisz zapytanie pobierające wszystkich klientów którzy nie są z "Germany" i "USA"
 6. Napisz zapytanie pobierające wszystkich klientów posortowanych rosnąco po kraju
 7. Napisz zapytanie pobierające wszystkich klientów posortowanych malejąco po kraju
-8. Napisz zapytanie pobierające wszystkich klientów posortowanych malejąco po kraju i rosnąco po "CustomerName"
+8. Napisz zapytanie pobierające wszystkich klientów posortowanych malejąco po kraju i rosnąco po "customer_name"
 
 ## MIN, MAX, COUNT, AVG, SUM, GROUP BY
 1. Pobierz minimalną cenę produktu
@@ -33,3 +33,10 @@
 3. Pobierz dane tylko tych klientów którzy złożyli zamówienie
 4. Pobierz dane zamówień wszystkich pracowników (użyj RIGHT JOIN)
 5. Stwórz pary klientów którzy są z tego samego miasta
+
+## ALL
+1. Top 10 najlepiej sprzedających się produktów
+2. Top 10 najlepszych klientów, z sumą i liczbą ich wszystkich zamówień
+3. Najlepiej sprzedająca się kategoria
+4. Sumy sprzedazy poszczególnych kategorii
+5. Pobierz klientów którzy zrobili zakupy po 1996-10-01 ale nie zrobili ich przed 1996-10-01

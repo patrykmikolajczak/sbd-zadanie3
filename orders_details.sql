@@ -1,9 +1,9 @@
 CREATE TABLE orders_details 
 (
     id INT NOT NULL AUTO_INCREMENT,
-    order_id	varchar(300),
-    product_id	varchar(300),
-    quantity	varchar(300),
+    order_id	int,
+    product_id	int,
+    quantity	int,
     PRIMARY KEY (`id`)
 );
 
