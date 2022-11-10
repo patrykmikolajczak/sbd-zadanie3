@@ -34,6 +34,10 @@
 4. Pobierz dane zamówień wszystkich pracowników (użyj RIGHT JOIN)
 5. Stwórz pary klientów którzy są z tego samego miasta
 
+## LIMIT, OFFSET
+1. Pobierz ostatnie 10 zamówień.
+2. Pobierz zamówienia od 10 do 20.
+
 ## ALL
 1. Top 10 najlepiej sprzedających się produktów
 2. Top 10 najlepszych klientów, z sumą i liczbą ich wszystkich zamówień
