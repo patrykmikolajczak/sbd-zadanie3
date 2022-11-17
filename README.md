@@ -38,6 +38,28 @@
 1. Pobierz ostatnie 10 zamówień.
 2. Pobierz zamówienia od 10 do 20.
 
+## HAVING , EXISTS
+1. Pobierz kraje, w których jest więcej niż 5 klientów
+2. Pobierz listę klientów, posortowanych majeljąco, którzy mają więcej niż 2 zamówienia, ale mniej niż 4
+3. Pobierz listę pracowników którzy zarejestrowali więcej niż 10 zamówień
+4. Sprawdź czy pracownicy "Davolio" lub "Fuller" dodali wiecej niż 25 zamówień
+5. Używając podzapytania wyświetl listę dostawców których produkty są tańsze niż 20
+6. Używając podzapytania wyświetl listę dostawców których produkty kosztują równo 22
+
+## ANY, ALL
+1. Używając podzapytania i ANY, pobierz produkty które chociaż raz były zamówionę w liczbę 10 sztuk
+2. Używając podzapytania i ANY, pobierz produkty które chociaż raz były zamówionę w liczbę większej niż 99 sztuk
+3. Używając ALL, pobierz wszystkie produkty posiadające nazwę
+4. Używając podzapytania i ALL, pobierz produkty które chociaż raz były zamówionę w liczbę 10 sztuk
+
+## CASE
+1. Pobierz nazwę i liczbę sztuk, wszystkich dostępnych produktów.  
+Liczba sztuk ma zawierać:  
+"Liczba sztuk jest większa niż 30" jeżeli liczba sztuj jest większa niż 30  
+"Liczba sztuk jest równa 30" jeżeli liczba sztuj jest równa 30  
+"Liczba sztuk jest mniejsza niż 30" jeżeli liczba sztuj jest mniejsza niż 30  
+2. Pobierz listę klientów posortowanych po mieście, jeżeli nazwa miasta jest równa null, posortuj po kraju.
+
 ## ALL
 1. Top 10 najlepiej sprzedających się produktów
 2. Top 10 najlepszych klientów, z sumą i liczbą ich wszystkich zamówień
