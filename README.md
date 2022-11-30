@@ -66,3 +66,7 @@ Liczba sztuk ma zawierać:
 3. Najlepiej sprzedająca się kategoria
 4. Sumy sprzedazy poszczególnych kategorii
 5. Pobierz klientów którzy zrobili zakupy po 1996-10-01 ale nie zrobili ich przed 1996-10-01
+
+## DISTINCT
+1. Stwórz zapytanie pobierające country z customers i drugie takie samo używając dodatkowo DISTINCT. Porównaj wyniki
+2. Używając DISTINCT zlicz liczbę niepowtarzających się państw w customers
